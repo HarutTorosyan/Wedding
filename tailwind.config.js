@@ -8,22 +8,29 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-img':"url(../src/assets/img/hero-bg.jpg)",
+        'aro-img':"url(../src/assets/img/elinatiko.png)",
+        
+      },
 
-      },
-      fontFamily:{
-        "pop": ["Poppins, sans-serif"],
-        "fair": ["Playfair Display, sans-serif"],
-        "lato": ["Lato, sans-serif"],
-        "russo":["Russo One, sans-serif"],
-        "monter":["Montserrat, sans-serif"]
-      },
-      colors: {
-        'main-color': '#00173c',
-        'main2-color': '#3660d9',
-      },
+      fontFamily: {
+          'montserrat': ['MontserratARM', 'sans-serif'],
+        },
+     "animation": {
+            shimmer: "shimmer 3s linear infinite"
+          },
+          "keyframes": {
+            shimmer: {
+              from: {
+                "backgroundPosition": "0 0"
+              },
+              to: {
+                "backgroundPosition": "-200% 0"
+              }
+            }
+          }
+     
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 
