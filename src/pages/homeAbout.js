@@ -4,8 +4,8 @@ import img2 from "../assets/img/image 3.png";
 import img3 from "../assets/img/image 5.png";
 import img4 from "../assets/img/image 4.png";
 import { useTranslation } from 'react-i18next'; 
-import i18n from '../i18n';
-import { Link } from "react-scroll";
+
+
 
 
 const HomeAbout = () => {

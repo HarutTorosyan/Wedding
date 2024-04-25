@@ -1,10 +1,8 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect,useCallback } from 'react'
 import { useTranslation } from 'react-i18next'; 
-import { Link } from 'react-router-dom'
 import play2 from '../../assets/img/play2.gif';
 import play3 from '../../assets/img/play3.gif';
 import Music from '../../assets/music/Music.mp3';
-import i18n from '../../i18n';
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 
@@ -32,14 +30,13 @@ function Header() {
 
   const deadline = new Date("June 23, 2024").getTime();
 
-  const getTime = () => {
+  const getTime = useCallback(() => {
     const time = deadline - Date.now();
-
     setDays(Math.floor(time / (1000 * 60 * 60 * 24)));
     setHours(Math.floor((time / (1000 * 60 * 60)) % 24));
     setMinutes(Math.floor((time / 1000 / 60) % 60));
     setSeconds(Math.floor((time / 1000) % 60));
-  };
+  }, [deadline]);
 
   useEffect(() => {
     const timerInterval = setInterval(getTime, 1000);
@@ -47,7 +44,7 @@ function Header() {
     return () => {
       clearInterval(timerInterval);
     };
-  }, []);
+  },[getTime]);
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
@@ -84,7 +81,7 @@ function Header() {
              initial="hidden"
              animate="show"
             className="relative z-10 ">
-            <img src={t('Header Image')} width={400}   className='h-[115px]'  alt="Header Image" />
+            <img src={t('Header Image')} width={400}   className='h-[115px]'  alt="" />
             </motion.div>
           </div>
           <div className="text-center z-10 relative">

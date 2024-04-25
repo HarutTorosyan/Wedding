@@ -1,15 +1,14 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom'
 import TigranELina from '../assets/img/image 29.png'
 import TigranELina2 from '../assets/img/Group 5.png'
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import i18n from '../i18n';
 import { useTranslation } from 'react-i18next'; 
 
 const LovePage = () => {
   const { ref, inView } = useInView();
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   
   return (
     <div id='elina' className='max-w-screen-2xl  flex flex-col items-center mt-20'>
@@ -30,9 +29,9 @@ const LovePage = () => {
         )}
       </div>
 
-      <img src={TigranELina} className='w-full max-w-[500px] h-[700px] object-cover max-sm:max-w-[350px] max-sm:h-[500px] px-4' />
+      <img src={TigranELina} className='w-full max-w-[500px] h-[700px] object-cover max-sm:max-w-[350px] max-sm:h-[500px] px-4' alt='' />
       <p className='mt-10 mb-10 text-xl font-medium font-montserrat'>{t('wait')}</p>
-      <img src={TigranELina2} className='w-full max-w-[300px] object-cover' />
+      <img src={TigranELina2} className='w-full max-w-[300px] object-cover' alt='' />
     </div>
   )
 }

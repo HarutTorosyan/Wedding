@@ -6,12 +6,11 @@ import firstImg from "../assets/img/image 27.png";
 import img from "../assets/img/image 9.png"
 import img1 from "../assets/img/harsik.png"
 import img2 from "../assets/img/restoran.png"
-import i18n from '../i18n';
 import { useTranslation } from 'react-i18next'; 
 import LovePage from "./lovePage";
 
 export default function Home() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <>

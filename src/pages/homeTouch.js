@@ -8,7 +8,7 @@ export default function HomeTouch() {
   const { ref: firstRef, inView: firstInView } = useInView();
   const { ref: secondRef, inView: secondInView } = useInView();
 
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className="text-center font-montserrat text-[19px] font-light flex flex-col items-center px-8 mt-20 space-y-3">
@@ -44,7 +44,7 @@ export default function HomeTouch() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: 'easeOut' }}
           >
-            <img src={t('Touch Image')}className="object-cover"  width={400} height={100} alt='Touch Image' />
+            <img src={t('Touch Image')}className="object-cover"  width={400} height={100} alt='' />
            
           </motion.div>
         )}
