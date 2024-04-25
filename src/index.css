@@ -7,7 +7,9 @@
 @tailwind utilities;
 
 
-
+body{
+  background:white;
+}
   @font-face {
     font-family: 'MontserratARM';
     src: url('https://static.tildacdn.com/tild3431-3137-4835-a232-396466356264/Montserratarm-Thin.woff') format('woff');
