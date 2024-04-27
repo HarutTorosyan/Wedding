@@ -4,7 +4,7 @@ import React from "react";
 export default function HomeContact(props) {
   
   return (
-    <div id="house" className="max-w-screen-2xl mx-auto mt-20 mb-20 px-6">
+    <div id={props.id} className="max-w-screen-2xl mx-auto mt-20 mb-20 px-6">
       <div className={`${props.cartStyle} md:px-[175px] text-2xl font-medium font-montserrat `}>
         {props.title} 
         {props.firstImg && <img src={props.firstImg} alt="" />}

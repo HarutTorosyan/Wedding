@@ -4,6 +4,7 @@ import img2 from "../assets/img/image 3.png";
 import img3 from "../assets/img/image 5.png";
 import img4 from "../assets/img/image 4.png";
 import { useTranslation } from 'react-i18next'; 
+import { Link } from "react-scroll";
 
 
 
@@ -13,10 +14,10 @@ const HomeAbout = () => {
   const isRussian = i18n.language === 'ru'
 
     const menuItems = [
-        { clock: "11:30", img: img1, title:`${t('start')}`, content:`${t('house')}`, content1:`${t('howget')}`,content2: `${t('location')}`, },
-        { clock: "13:00", img: img2, title: `${t('photo')}`, content:`${t('emotion')}`, content1: `${t('howget')}`,content2:`${t('happy')}` },
-        { clock: "15:00", img: img4, title: `${t('wedding')}`, content: `${t('church')}`, content1: `${t('howget')}` ,content2:`${t('churchloc')}`},
-        { clock: "17:00", img: img3, title:`${t('banket')}`, content: `${t('hall')}`, content1: `${t('howget')}`,content2:`${t('hallloc')}`, },
+        { clock: "11:30", img: img1, title:`${t('start')}`, content:`${t('house')}`, content1:`${t('howget')}`,content2: `${t('location')}`,href:'house' },
+        { clock: "13:00", img: img2, title: `${t('photo')}`, content:`${t('emotion')}`, content1: `${t('howget')}`,content2:`${t('happy')}`,href:false },
+        { clock: "15:00", img: img4, title: `${t('wedding')}`, content: `${t('church')}`, content1: `${t('howget')}` ,content2:`${t('churchloc')}`,href:'church'},
+        { clock: "17:00", img: img3, title:`${t('banket')}`, content: `${t('hall')}`, content1: `${t('howget')}`,content2:`${t('hallloc')}`,href:'hall' },
       ];
 
   return (
@@ -34,7 +35,7 @@ const HomeAbout = () => {
         <h3 className={`text-[23px] text-start max-lg:text-center ${isRussian ? 'roboto-bold' : 'font-medium'} `}>{item.title}</h3>
         <p className={`text-start mt-2 max-lg:text-center  text-[15px] ${isRussian ? 'roboto-bold' : 'font-medium'} `}>{item.content}</p>
         <p className="text-start mt-2 max-lg:text-center font-light text-[13px] ">{item.content2}</p>
-        <p className="text-start max-lg:text-center text-[#c19e46] text-lg font-medium  mt-2 pt-7 cursor-pointer"><>{item.content1}</></p>
+        <p className="text-start max-lg:text-center text-[#c19e46] text-lg font-medium  mt-2 pt-7 cursor-pointer"><Link  to={item.href}  spy={true} smooth={true} ofsset={50} duration={500}>{item.content1}</Link></p>
       </div>
     </div>
     {index !== menuItems.length - 1 && <div className="h-20 max-lg:h-2" />}
