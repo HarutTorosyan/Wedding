@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Wedding/static/css/main.5ffa5756.css",
+    "main.js": "/Wedding/static/js/main.f96b2e88.js",
+    "static/media/image 29.png": "/Wedding/static/media/image 29.967ba6875e8efbc16dea.png",
+    "static/media/elinatiko.png": "/Wedding/static/media/elinatiko.6db20c17614fe2b8ef7c.png",
+    "static/media/Music.mp3": "/Wedding/static/media/Music.2655d356a63fcb2621b4.mp3",
+    "static/media/harsik.png": "/Wedding/static/media/harsik.ffe5c127a064a5c46238.png",
+    "static/media/groom.jpeg": "/Wedding/static/media/groom.5f7eeb9f2f3ad2d88136.jpeg",
+    "static/media/XXXL.webp": "/Wedding/static/media/XXXL.20ea2d635f898cac2b99.webp",
+    "static/media/nor dvin.jpg": "/Wedding/static/media/nor dvin.cbac873300db93048d63.jpg",
+    "static/media/play3.gif": "/Wedding/static/media/play3.9bdbca7ff36ebca8dbd0.gif",
+    "static/media/play2.gif": "/Wedding/static/media/play2.042d42aca2690e050874.gif",
+    "static/media/angleren.svg": "/Wedding/static/media/angleren.aa94adb5ab1d6f13100dd8088c200fb4.svg",
+    "static/media/ruseren.svg": "/Wedding/static/media/ruseren.c4c3d89a400e520e2bb5d4e32a1e1f58.svg",
+    "static/media/hayeren.svg": "/Wedding/static/media/hayeren.76868bc8ff3a19a918234d1ceb63a870.svg",
+    "static/media/Group 41.svg": "/Wedding/static/media/Group 41.0b4d69cd5706133011be86885ec9df21.svg",
+    "static/media/image 27.png": "/Wedding/static/media/image 27.e365898a1e5fcaa32b3a.png",
+    "static/media/date.jpg": "/Wedding/static/media/date.95648e3ff14aa390414c.jpg",
+    "static/media/ruDate.jpg": "/Wedding/static/media/ruDate.069decfdc999003bc697.jpg",
+    "static/media/image 4.png": "/Wedding/static/media/image 4.c734dc38ee2483b8b049.png",
+    "static/media/slick.svg": "/Wedding/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Wedding/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Wedding/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Wedding/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Wedding/index.html",
+    "main.5ffa5756.css.map": "/Wedding/static/css/main.5ffa5756.css.map",
+    "main.f96b2e88.js.map": "/Wedding/static/js/main.f96b2e88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ffa5756.css",
+    "static/js/main.f96b2e88.js"
+  ]
+}
