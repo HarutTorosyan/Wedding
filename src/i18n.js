@@ -1,11 +1,11 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import Name from './assets/img/Name.png'; 
-import ruName from "./assets/img/ruName.png"
-import enName from "./assets/img/enName.png"
-import date from './assets/img/date.png'
-import ruDate from './assets/img/ruDate.png'
-import enDate from './assets/img/enDate.png'
+import Name from './assets/img/hayeren.svg'; 
+import ruName from "./assets/img/ruseren.svg"
+import enName from "./assets/img/angleren.svg"
+import date from './assets/img/date.jpg'
+import ruDate from './assets/img/ruDate.jpg'
+import enDate from './assets/img/enDate.jpg'
 
 i18n
   .use(initReactI18next) 
@@ -25,18 +25,19 @@ i18n
           'Touch Image': date, 
           'timing':'Ծրագիր',
           'start':'Միջոցառման սկիզբը',
-          'house':'Հարսի Տուն',
-          'location':'Սարի-Թաղ 28 նրբ․ 23 տուն',
+          'house':'Փեսայի Տուն',
+          'housee':'Հարսի Տուն',
+          'location':'Սարի Թաղ 28փ․ 13տ․',
           'howget':'Ինչպես հասնել',
-          'photo':'Ֆոտոսեսիա',
-          'emotion':'Հուզիչ պահերը շարունակվում են',
+          'photo':'Հարսի Տուն',
+          'emotion':'Դավիթ Բեկի 130/10',
           'happy':'Ուրախ պահերը հիշողության համար',
           'wedding':'Պսակադրություն',
-          'church':'Սուրբ Հովհաննես եկեղեցի',
-          'churchloc':'ք․Աբովյան, Կոտայքի մարզ Սահմանադրության հրպ․',
+          'church':'Սուրբ Մարիամ Աստվածածին եկեղեցի',
+          'churchloc':'ք․Երեւան Արմենակ Արմենակյան փող.',
           'banket':'Հարսանյաց հանդիսություն',
-          'hall':'<< Safari Hall >>  ռեստորան',
-          'hallloc':'ք․Չարենցավան, Կարեն Դեմիրճյան հրապարակ 3',
+          'hall':'<< Nor Dvin >>  ռեստորան',
+          'hallloc':'ք․Էջմիածին,Աշտարակի խճուղի 1 շենք',
           'confirm':'Խնդրում ենք հաստատել ձեր ներկայությունը  ',
           'click':'Լրացնել հյուրի հարցման դաշտը ',
           'wait':'Սիրով սպասում ենք Ձեզ ',
@@ -56,18 +57,19 @@ i18n
           'Touch Image': ruDate, 
           'timing':'Тайминг',
           'start':'Начало мероприятия',
-          'house':'Дом невесты',
-          'location':'Сари-Тах 28 переулок. 23 дома',
+          'house':'Дом жениха',
+          'housee':'Дом невесты',
+          'location':'Сари Таг 28ул. 13д․',
           'howget':'Как добраться?',
-          'photo':'Фотосессия',
-          'emotion':'Интересные моменты продолжаются',
+          'photo':'Дом невесты',
+          'emotion':'Ул․ Давид Беки 130/10',
           'happy':'Счастливые моменты на память',
           'wedding':'Венчание',
-          'church':'Церковь Святого Иоанна',
-          'churchloc':'г. Абовян, Котайкский марз.',
+          'church':'Церковь Святой Богородицы Марии',
+          'churchloc':'г. Ереван Ул. Арменака Арменакяна',
           'banket':'Свадебный банкет',
-          'hall':'<< Safari Hall >>  ресторан',
-          'hallloc':'г. Чаренцаван, площадь Карена Демирчяна 3',
+          'hall':'<< Nor Dvin >>  ресторан',
+          'hallloc':'г. Эчмиадзин, Аштаракское шоссе, 1 здание ',
           'confirm':'Пожалуйста, подтвердите свое присутствие',
           'click':'Заполните поле запроса гостя',
           'wait':'С любовью ждём Вас ',
@@ -87,18 +89,19 @@ i18n
           'Touch Image': enDate,
           'timing':'Timing',
           'start':'Start of the event',
-          'house':"Bride's house",
-          'location':'Sari-tagh 28th bck 23',
+          'house':"Groom's House",
+          'housee':"Bride's House",
+          'location':'Sari Tagh 28str. 25h.',
           'howget':'How to get there?',
-          'photo':'Photoshoot',
-          'emotion':'Interesting moments continue',
+          'photo':"Bride's house",
+          'emotion':'Davit Bek str. 130/10',
           'happy':'The happy moments for memory',
           'wedding':'Wedding ceremony',
-          'church':'St.Hovhannes Church',
-          'churchloc':'Abovyan city, Kotayk marz.',
+          'church':'St․Mary Church',
+          'churchloc':'Yerevan city, Armenak Armenakyan street',
           'banket':'Wedding banquet',
-          'hall':'<< Safari Hall >>  restaurant',
-          'hallloc':'Charentsavan, Karen Demirchyan Square 3',
+          'hall':'<< Nor Dvin >>  restaurant',
+          'hallloc':'Ejmiacin city,Ashtaraki highway, 1 building',
           'confirm':'Please confirm your participation',
           'click':'Click here to fill in your name',
           'wait':'We are waiting for you with love',

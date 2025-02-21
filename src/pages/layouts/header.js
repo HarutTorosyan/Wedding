@@ -28,7 +28,7 @@ function Header() {
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
 
-  const deadline = new Date("June 23, 2024").getTime();
+  const deadline = new Date("April 5, 2025").getTime();
 
   const getTime = useCallback(() => {
     const time = deadline - Date.now();

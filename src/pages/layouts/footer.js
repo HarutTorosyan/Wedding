@@ -3,7 +3,7 @@
  export default function Footer() {
  
     return(
-<div className="mb-10">
+<div className="mb-10 bg-white">
     
     <Link to={""}>  </Link>
    

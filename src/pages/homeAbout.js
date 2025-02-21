@@ -1,6 +1,5 @@
 import React from "react";
 import img1 from "../assets/img/image 2.png";
-import img2 from "../assets/img/image 3.png";
 import img3 from "../assets/img/image 5.png";
 import img4 from "../assets/img/image 4.png";
 import { useTranslation } from 'react-i18next'; 
@@ -15,9 +14,9 @@ const HomeAbout = () => {
 
     const menuItems = [
         { clock: "11:30", img: img1, title:`${t('start')}`, content:`${t('house')}`, content1:`${t('howget')}`,content2: `${t('location')}`,href:'house' },
-        { clock: "13:00", img: img2, title: `${t('photo')}`, content:`${t('emotion')}`, content1: `${t('howget')}`,content2:`${t('happy')}`,href:false },
-        { clock: "15:00", img: img4, title: `${t('wedding')}`, content: `${t('church')}`, content1: `${t('howget')}` ,content2:`${t('churchloc')}`,href:'church'},
-        { clock: "17:00", img: img3, title:`${t('banket')}`, content: `${t('hall')}`, content1: `${t('howget')}`,content2:`${t('hallloc')}`,href:'hall' },
+        { clock: "13:00", img: img1, title: `${t('photo')}`, content:`${t('emotion')}`, content1: `${t('howget')}`,content2:`${t('happy')}`,href:'house1' },
+        { clock: "14:30", img: img4, title: `${t('wedding')}`, content: `${t('church')}`, content1: `${t('howget')}` ,content2:`${t('churchloc')}`,href:'church'},
+        { clock: "17:30", img: img3, title:`${t('banket')}`, content: `${t('hall')}`, content1: `${t('howget')}`,content2:`${t('hallloc')}`,href:'hall' },
       ];
 
   return (
