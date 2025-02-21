@@ -4,7 +4,7 @@ import HomeAbout from "./homeAbout";
 import HomeContact from "./homeContact";
 import firstImg from "../assets/img/image 27.png";
 import img from "../assets/img/XXXL.webp"
-import img1 from "../assets/img/harsik.png"
+import img1 from "../assets/img/irina.jpg"
 import img3 from "../assets/img/groom.jpeg"
 import img2 from "../assets/img/nor dvin.jpg"
 import { useTranslation } from 'react-i18next'; 
