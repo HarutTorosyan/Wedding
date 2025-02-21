@@ -11,7 +11,7 @@ const LovePage = () => {
   const { t } = useTranslation();
   
   return (
-    <div  className='  flex flex-col items-center mt-20'>
+    <div  className='bg-white  flex flex-col items-center mt-20'>
       <div ref={ref}>
         <h1 className='text-2xl font-montserrat font-medium mt-10 mb-10 max-sm:text-lg max-sm:text-center'> {t('confirm')}</h1>
 
