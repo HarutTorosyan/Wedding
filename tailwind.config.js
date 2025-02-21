@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'aro-img':"url(../src/assets/img/elinatiko.png)",
+        'aro-img':"url(../src/assets/img/elinatiko.jpg)",
         
       },
 
