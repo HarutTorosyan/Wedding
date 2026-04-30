@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import TigranELina from '../assets/img/image 29.png'
-import TigranELina2 from '../assets/img/Group 41.svg'
+import TigranELina from '../assets/img/main.JPG'
+import TigranELina2 from '../assets/img/last.png'
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useTranslation } from 'react-i18next'; 
@@ -23,7 +23,7 @@ const LovePage = () => {
             className='flex justify-center'
           >
             <button className="max-sm:text-sm inline-flex font-montserrat mb-20 h-14 px-12 animate-shimmer items-center justify-center rounded-[30px] bg-[linear-gradient(110deg,#b99a4b,50%,#ebf5f3,55%,#b99a4b)] bg-[length:200%_100%] font-medium text-white text-md transition-colors ">
-              <Link to="https://forms.gle/aNBmqEok8b1XHcEt8" target='blank'> {t('click')} </Link>
+              <Link  target='blank'> {t('click')} </Link>
             </button>
           </motion.div>
         )}

@@ -13,10 +13,10 @@ const HomeAbout = () => {
   const isRussian = i18n.language === 'ru'
 
     const menuItems = [
-        { clock: "11:30", img: img1, title:`${t('start')}`, content:`${t('house')}`, content1:`${t('howget')}`,content2: `${t('location')}`,href:'house' },
-        { clock: "13:00", img: img1, title: `${t('photo')}`, content:`${t('emotion')}`, content1: `${t('howget')}`,content2:`${t('happy')}`,href:'house1' },
-        { clock: "14:30", img: img4, title: `${t('wedding')}`, content: `${t('church')}`, content1: `${t('howget')}` ,content2:`${t('churchloc')}`,href:'church'},
-        { clock: "17:30", img: img3, title:`${t('banket')}`, content: `${t('hall')}`, content1: `${t('howget')}`,content2:`${t('hallloc')}`,href:'hall' },
+        { clock: "08:45", img: img1, title:`${t('start')}`, content:`${t('house')}`, content1:`${t('howget')}`,content2: `${t('location')}`,href:'house' },
+        { clock: "11:30", img: img1, title: `${t('photo')}`, content:`${t('emotion')}`, content1: `${t('howget')}`,content2:`${t('happy')}`,href:'house1' },
+        { clock: "13:45", img: img4, title: `${t('wedding')}`, content: `${t('church')}`, content1: `${t('howget')}` ,content2:`${t('churchloc')}`,href:'church'},
+        { clock: "18:30", img: img3, title:`${t('banket')}`, content: `${t('hall')}`, content1: `${t('howget')}`,content2:`${t('hallloc')}`,href:'hall' },
       ];
 
   return (

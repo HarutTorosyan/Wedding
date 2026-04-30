@@ -28,7 +28,7 @@ function Header() {
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
 
-  const deadline = new Date("April 5, 2025").getTime();
+  const deadline = new Date("August 8, 2026").getTime();
 
   const getTime = useCallback(() => {
     const time = deadline - Date.now();
@@ -56,7 +56,7 @@ function Header() {
         <nav className="flex items-center  p-6 " aria-label="Global">
           <div className='cursor-pointer flex items-center justify-center gap-2 border rounded-full px-2 py-2 mt-2 font-montserrat text-white font-light text-sm'>  
             <button onClick={() => changeLanguage('hy')}>ARM |</button>
-            <button onClick={() => changeLanguage('ru')}>RU |</button>
+            <button onClick={() => changeLanguage('ru')}>FR |</button>
             <button onClick={() => changeLanguage('en')}>ENG</button>
           </div>
           <div className='ml-auto'>
