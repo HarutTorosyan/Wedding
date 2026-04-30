@@ -1,6 +1,6 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import Name from './assets/img/name.png'; 
+import Name from './assets/img/first.png'; 
 import ruName from "./assets/img/enName.png"
 import enName from "./assets/img/enName.png"
 import date from './assets/img/45.png'
