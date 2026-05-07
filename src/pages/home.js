@@ -22,7 +22,7 @@ export default function Home() {
         content={t('house')}
         id='house'
         img={img3}  
-        mapSource="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1078.0466311550647!2d44.537536569627285!3d40.16062751987014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abc809ca87cbb%3A0x22c6f9c256af8668!2s28th%20St%2C%20Yerevan!5e0!3m2!1sru!2sam!4v1740071480625!5m2!1sru!2sam" 
+        mapSource="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2904.0614413898106!2d5.456378275979258!3d43.2920349757154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9bebf238065cd%3A0x9166de68f531ca6f!2zMTIgQmQgZGUgbGEgQ2FydG9ubmVyaWUsIDEzMDExIE1hcnNlaWxsZSwg0KTRgNCw0L3RhtC40Y8!5e0!3m2!1sru!2sam!4v1778173109055!5m2!1sru!2sam" 
       
       />
     
@@ -31,8 +31,7 @@ export default function Home() {
         content={t('housee')}
         id='house1'
         img={img1}  
-        mapSource="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3049.0856811978115!2d44.53333618538274!3d40.162645997546086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abc80b4d3497d%3A0x2f7f6c51402ae2be!2s130%20Davit-Bek%20St%2C%20Yerevan!5e0!3m2!1sru!2sam!4v1739995020934!5m2!1sru!2sam"
-      
+        mapSource="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.7235578683462!2d5.45302327598062!3d43.320046073914824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9be5e0ae6e013%3A0x74651bebc59ef7bd!2zMzUgQXYuIGRlcyBQaW5zLCAxMzAxMyBNYXJzZWlsbGUsINCk0YDQsNC90YbQuNGP!5e0!3m2!1sru!2sam!4v1778172935493!5m2!1sru!2sam" 
       />
     
 
